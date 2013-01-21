@@ -1,0 +1,12 @@
+[Unit] 
+Description=Confluence Team Collaboration Software
+After=network.target
+
+[Service] 
+Type=forking
+ExecStart=/opt/atlassian/confluence/bin/start-confluence.sh
+ExecStop=/opt/atlassian/confluence/bin/stop-confluence.sh
+
+[Install] 
+WantedBy=multi-user.target 
+
