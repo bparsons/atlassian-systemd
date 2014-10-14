@@ -4,6 +4,7 @@ After=network.target
 
 [Service] 
 Type=forking
+PIDFile=/opt/atlassian/confluence/work/catalina.pid
 ExecStart=/opt/atlassian/confluence/bin/start-confluence.sh
 ExecStop=/opt/atlassian/confluence/bin/stop-confluence.sh
 
