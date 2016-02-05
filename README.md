@@ -6,6 +6,7 @@ Under systemd, daemons and services are started via unit files. This repository 
 
 * jira 
 * confluence
+* bitbucket
 
 These unit files assume the default install path. If you installed in a different directory you will need to adjust these files to reflect the proper path.
 
