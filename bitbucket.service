@@ -1,5 +1,5 @@
 	[Unit]
-	Description=Bitbucket  the Git solution for professioanl teams
+	Description=Bitbucket  the Git solution for professional teams
 	After=syslog.target network.target
 	 
 	[Service]
