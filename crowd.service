@@ -1,0 +1,14 @@
+[Unit]
+Description=Crowd Identity management for web apps
+After=network.target
+
+[Service]
+Type=forking
+User=crowd
+PIDFile=/opt/atlassian/crowd/apache-tomcat/work/catalina.pid
+ExecStart=/opt/atlassian/crowd/start_crowd.sh
+ExecStop=/opt/atlassian/crowd/stop_crowd.sh
+
+[Install]
+WantedBy=multi-user.target
+
