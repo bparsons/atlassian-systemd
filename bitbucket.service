@@ -5,7 +5,7 @@
 	[Service]
 	Type=forking
 	User=bitbucket
-	PIDFile=/opt/atlassian/bitbucket/work/catalina.pid
+	PIDFile=/var/atlassian/application-data/bitbucket/log/bitbucket.pid
 	ExecStart=/opt/atlassian/bitbucket/bin/start-bitbucket.sh
 	ExecStop=/opt/atlassian/bitbucket/bin/stop-bitbucket.sh
 	 
