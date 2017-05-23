@@ -1,6 +1,6 @@
 [Unit] 
 Description=Jira Issue & Project Tracking Software
-After=network.target
+After=syslog.target network.target
 
 [Service] 
 Type=forking
