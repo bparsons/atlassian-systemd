@@ -1,0 +1,12 @@
+	[Unit]
+	Description=Fisheye the on-premise source code repository browser for enterprise teams
+	After=syslog.target network.target
+	 
+	[Service]
+	Type=forking
+	User=fisheye
+	ExecStart=/usr/local/atlassian/applications/fisheye/4.6.0/bin/fisheyectl.sh start
+	ExecStop=/usr/local/atlassian/applications/fisheye/4.6.0/bin/fisheyectl.sh stop
+	 
+	[Install]
+	WantedBy=multi-user.target
