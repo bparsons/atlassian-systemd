@@ -7,7 +7,7 @@
 	User=bamboo
 	ExecStart=/opt/atlassian/bamboo/bin/start-bamboo.sh
 	ExecStop=/opt/atlassian/bamboo/bin/stop-bamboo.sh
-  SuccessExitStatus=143
+        SuccessExitStatus=143
 
 	 
 	[Install]
